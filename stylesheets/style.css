@@ -20,7 +20,10 @@ li {
 }
 
 /* Base + Font styles */
-/* -------------------- */
+body {
+  font-family: Spartan;
+}
+
 /* Mobile styles -- Starting point */
 /* -------------------- */
 /* Footer styles */
