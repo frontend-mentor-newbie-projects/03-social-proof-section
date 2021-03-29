@@ -4,8 +4,17 @@
 // - Font styles
 // The foregoing remain constant throughout all styles specified for all screens.
 
-/* Varibables */
-/* -------------------- */
+// Global Varibables
+$primary-1: hsl(300, 43%, 22%);     // Very Dark Magenta
+$primary-2: hsl(333, 80%, 67%);     // Soft Pink
+
+$neutral-1: hsl(303, 10%, 53%);     // Dark Grayish Magenta
+$neutral-2: hsl(300, 24%, 96%);     // Light Grayish Magenta
+$neutral-3: hsl(0, 0%, 100%);       // White
+
+$body-font: 15px;
+
+$font-stack: Spartan;
 
 /* Reset browser defaults */
 html {
