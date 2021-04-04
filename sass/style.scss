@@ -12,7 +12,7 @@ $neutral-1: hsl(303, 10%, 53%);     // Dark Grayish Magenta
 $neutral-2: hsl(300, 24%, 96%);     // Light Grayish Magenta
 $neutral-3: hsl(0, 0%, 100%);       // White
 
-$body-font: 15px;
+$body-font-size: 15px;
 
 $font-stack: Spartan;
 
@@ -48,21 +48,55 @@ main #header {
 
     h1 {
         color: $primary-1;
-        font-size: 2rem;
+        font-size: 32px;
         font-weight: 700;
 
-        margin-bottom: 1.5rem;
-        padding: 0 2rem;
+        margin-bottom: 24px;
+        padding: 0 32px;
     }
 
     p {
         color: $neutral-1;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 400;
 
-        padding: 0 1rem; // TODO: This is sketchy.
+        line-height: 24px;
 
-        line-height: 1.5rem;
+        margin-bottom: 44px;
+        padding: 2px;
+    }
+}
+
+main #reviews {
+    .card {
+        border-radius: 8px;
+        margin: 8px 0;
+    }
+
+    .card-review {
+        background-color: $neutral-2;
+
+        margin-bottom: 16px;
+        padding: 16px 0;
+
+        text-align: center;
+    }
+
+    .card-review .rating span {
+        padding: 0 4px;
+    }
+
+    .card-review .rating {
+        margin-bottom: 16px;
+    }
+    
+    .card-review p {
+        color: $primary-1;
+        font-size: 15px;
+        font-weight: 700;
+
+        padding: 0;
+        margin: 0;
     }
 }
 
@@ -90,9 +124,7 @@ body {
 
 main {
     min-width: 280px;
-    max-width: 375px;
-
-    margin: 0 auto;
+    width: 328px;
 }
 
 /* Footer styles */

@@ -32,18 +32,47 @@ main #header {
 
 main #header h1 {
   color: #502050;
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 700;
-  margin-bottom: 1.5rem;
-  padding: 0 2rem;
+  margin-bottom: 24px;
+  padding: 0 32px;
 }
 
 main #header p {
   color: #937b92;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
-  padding: 0 1rem;
-  line-height: 1.5rem;
+  line-height: 24px;
+  margin-bottom: 44px;
+  padding: 2px;
+}
+
+main #reviews .card {
+  border-radius: 8px;
+  margin: 8px 0;
+}
+
+main #reviews .card-review {
+  background-color: #f7f2f7;
+  margin-bottom: 16px;
+  padding: 16px 0;
+  text-align: center;
+}
+
+main #reviews .card-review .rating span {
+  padding: 0 4px;
+}
+
+main #reviews .card-review .rating {
+  margin-bottom: 16px;
+}
+
+main #reviews .card-review p {
+  color: #502050;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
 }
 
 /* Mobile styles -- Starting point */
@@ -58,8 +87,7 @@ body {
 
 main {
   min-width: 280px;
-  max-width: 375px;
-  margin: 0 auto;
+  width: 328px;
 }
 
 /* Footer styles */
