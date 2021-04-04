@@ -11,51 +11,115 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Spartan" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Misc -->
     <title>Frontend Mentor | Social Proof Section</title>
 
   </head>
   <body>
-    <!-- Header -->
-    <header>
-      <h1>10,000+ of our users love our products.</h1>
-
-      <p>We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</p>
-    </header>
-
     <!-- Main -->
-    <main>
+    <main class="grid">
+      <!-- Header -->
+      <section id="header">
+        <h1>10,000+ of our users love our products.</h1>
+
+        <p>We only provide great products combined with excellent customer service. See what our satisfied customers are saying about our services.</p>
+      </section>
+
       <!-- Reviews -->
       <section id="reviews">
-        <p class="card card-review">Rated 5 Stars in Reviews</p>
-        <p class="card card-review">Rated 5 Stars in Report Guru</p>
-        <p class="card card-review">Rated 5 Stars in BestTech</p>  
+        <!-- Review-1 -->
+        <div class="card card-review">
+          <div class="rating">
+            <span><img src="./images/icon-star.svg" alt=""></span>
+            <span><img src="./images/icon-star.svg" alt=""></span>
+            <span><img src="./images/icon-star.svg" alt=""></span>
+            <span><img src="./images/icon-star.svg" alt=""></span>
+            <span><img src="./images/icon-star.svg" alt=""></span>
+          </div>
+
+          <p class="card card-review">Rated 5 Stars in Reviews</p>
+        </div>
+
+        <!-- Review-2 -->
+        <div class="card card-review">
+          <div class="rating">
+            <span><img src="./images/icon-star.svg" alt=""></span>
+            <span><img src="./images/icon-star.svg" alt=""></span>
+            <span><img src="./images/icon-star.svg" alt=""></span>
+            <span><img src="./images/icon-star.svg" alt=""></span>
+            <span><img src="./images/icon-star.svg" alt=""></span>
+          </div>
+
+          <p class="card card-review">Rated 5 Stars in Report Guru</p>
+        </div>
+
+        <!-- Review-3 -->
+        <div class="card card-review">
+          <div class="rating">
+            <span><img src="./images/icon-star.svg" alt=""></span>
+            <span><img src="./images/icon-star.svg" alt=""></span>
+            <span><img src="./images/icon-star.svg" alt=""></span>
+            <span><img src="./images/icon-star.svg" alt=""></span>
+            <span><img src="./images/icon-star.svg" alt=""></span>
+          </div>
+
+          <p class="card card-review">Rated 5 Stars in BestTech</p>
+        </div>
       </section>
 
       <!-- Testimonials -->
       <section id="testimonials">
+        <!-- Testimonial-1 -->
         <div class="card card-testimonial">
-          <h2>Colton Smith</h2>
-          <h3>Verified Buyer</h3>
-          <p>"We needed the same printed design as the one we had ordered a week prior.
+          <!-- Client -->
+          <div class="client">
+            <img src="./images/image-colton.jpg" alt="Man">
+
+            <!-- Client Details -->
+            <div class="client-details">
+              <h2>Colton Smith</h2>
+              <h3>Verified Buyer</h3>
+            </div>
+          </div>
+
+          <p>"<span class="leading"></span>We needed the same printed design as the one we had ordered a week prior.
             Not only did they find the original order, but we also received it in time.
             Excellent!"</p>
         </div>
 
+        <!-- Testimonial-2 -->
         <div class="card card-testimonial">
-          <h2>Irene Roberts</h2>
-          <h3>Verified Buyer</h3>
-          <p>"Customer service is always excellent and very quick turn around. Completely
+          <!-- Client -->
+          <div class="client">
+            <img src="./images/image-irene.jpg" alt="Woman">
+
+            <!-- Client Details -->
+            <div class="client-details">
+              <h2>Irene Roberts</h2>
+              <h3>Verified Buyer</h3>
+            </div>
+          </div>
+
+          <p>"<span class="leading"></span>Customer service is always excellent and very quick turn around. Completely
             delighted with the simplicity of the purchase and the speed of delivery."</p>
         </div>
 
+        <!-- Testimonial-3 -->
         <div class="card card-testimonial">
-          <h2>Anne Wallace</h2>
-          <h3>Verified Buyer</h3>
-          <p>"Put an order with this company and can only praise them for the very high
-            standard. Will definitely use them again and recommend them to everyone!"</p>
+          <!-- Client -->
+          <div class="client">
+            <img src="./images/image-anne.jpg" alt="Woman">
+
+            <!-- Client Details -->
+            <div class="client-details">
+              <h2>Anne Wallace</h2>
+              <h3>Verified Buyer</h3>
+            </div>
+          </div>
+
+          <p>"<span class="leading"></span>Put an order with this company and can only praise them for the very high standard. Will definitely use them again and recommend them to everyone!"</p>
         </div>
       </section>
     </main>
