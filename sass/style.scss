@@ -4,7 +4,7 @@
 // - Font styles
 // The foregoing remain constant throughout all styles specified for all screens.
 
-// Global Varibables
+/* Global Varibables */
 $primary-1: hsl(300, 43%, 22%);     // Very Dark Magenta
 $primary-2: hsl(333, 80%, 67%);     // Soft Pink
 
@@ -25,7 +25,10 @@ html {
     box-sizing: inherit;
 }
 
-body, p, a, ul, li {
+body,
+h1, h2, h3, h4, h5, h6,
+p, a, ul, li,
+img {
     margin: 0;
     padding: 0;
     text-decoration: none;
