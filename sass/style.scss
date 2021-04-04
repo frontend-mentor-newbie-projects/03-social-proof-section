@@ -54,7 +54,16 @@ body {
 
 /* Mobile styles -- Starting point */
 // 12 col | 8 col | 4 col
-/* -------------------- */
+body {
+    display: flex;
+
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+    padding: 100px 16px;
+}
 
 /* Footer styles */
 .attribution {
