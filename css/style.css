@@ -47,6 +47,10 @@ main #header p {
   padding: 2px;
 }
 
+main #reviews {
+  margin-bottom: 48px;
+}
+
 main #reviews .card {
   border-radius: 8px;
   margin: 8px 0;
@@ -73,6 +77,65 @@ main #reviews .card-review p {
   font-weight: 700;
   padding: 0;
   margin: 0;
+}
+
+main #testimonials .card {
+  border-radius: 8px;
+  margin: 8px 0;
+}
+
+main #testimonials .card-testimonial {
+  background-color: #502050;
+  margin-bottom: 2rem;
+  padding: 2.5rem 2rem;
+}
+
+main #testimonials .card-testimonial .client {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 40px;
+  margin-bottom: 1.5rem;
+}
+
+main #testimonials .card-testimonial .client .client-details {
+  margin-left: 1.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+}
+
+main #testimonials img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+main #testimonials h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+main #testimonials h3 {
+  color: #ee68a4;
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+main #testimonials p {
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5rem;
+}
+
+main #testimonials p span::before {
+  content: " ";
 }
 
 /* Mobile styles -- Starting point */
