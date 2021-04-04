@@ -43,6 +43,29 @@ body {
     font-family: $font-stack;
 }
 
+main #header {
+    text-align: center;
+
+    h1 {
+        color: $primary-1;
+        font-size: 2rem;
+        font-weight: 700;
+
+        margin-bottom: 1.5rem;
+        padding: 0 2rem;
+    }
+
+    p {
+        color: $neutral-1;
+        font-size: 15px;
+        font-weight: 400;
+
+        padding: 0 1rem; // TODO: This is sketchy.
+
+        line-height: 1.5rem;
+    }
+}
+
 // - Small mobile - 320px
 // - Medium mobile - 375px
 // - Large mobile - 425px

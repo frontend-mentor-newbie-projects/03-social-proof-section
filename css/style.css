@@ -26,6 +26,26 @@ body {
   font-family: Spartan;
 }
 
+main #header {
+  text-align: center;
+}
+
+main #header h1 {
+  color: #502050;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  padding: 0 2rem;
+}
+
+main #header p {
+  color: #937b92;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0 1rem;
+  line-height: 1.5rem;
+}
+
 /* Mobile styles -- Starting point */
 body {
   display: flex;
