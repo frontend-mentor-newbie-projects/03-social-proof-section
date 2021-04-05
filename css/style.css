@@ -86,7 +86,7 @@ main #testimonials .card {
 
 main #testimonials .card-testimonial {
   background-color: #502050;
-  margin-bottom: 2rem;
+  margin-bottom: 16px;
   padding: 2.5rem 2rem;
 }
 
