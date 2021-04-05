@@ -1,9 +1,11 @@
 /* Desktop styles -- The width of the screen is at least 1200px */
 @media screen and (min-width: 1200px) {
   body {
-    min-height: 800px;
+    height: 100vh;
+    min-height: 700px;
     margin: 0 auto;
     padding: 0 160px;
+    background: url(../images/bg-pattern-bottom-desktop.svg) no-repeat 20vw 20vh fixed, url(../images/bg-pattern-top-desktop.svg) no-repeat 0vw 0vh fixed, white;
   }
   main {
     width: 1120px;
