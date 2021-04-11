@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Frontend Mentor Solution
-- [Live Site](https://frontend-mentor-newbie-projects.github.io/03-social-proof-section//)
+- [Live Site](https://frontend-mentor-newbie-projects.github.io/03-social-proof-section/)
 
 ## My process
 
